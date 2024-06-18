@@ -1,0 +1,354 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  background: #4c2158;
+}
+
+.nav {
+  position: absolute;
+  width: 101%;
+  height: 70px;
+  left: -6px;
+  top: 26px;
+  background: #c3d21f;
+  border-radius: 8px;
+}
+.ques1 {
+  position: absolute;
+  width: 1000px;
+  height: 29px;
+  left: 62px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: x-large;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0c0a0a;
+}
+.timer {
+  position: absolute;
+  width: 62px;
+  height: 59px;
+  left: 1400px;
+  top: -42px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 59px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  border: 5px solid #000000;
+  border-radius: 8px;
+}
+.box {
+  position: absolute;
+  width: 94%;
+  height: 364px;
+  left: 37px;
+  display: grid;
+  top: 106px;
+  background: linear-gradient(
+    179.88deg,
+    #ddb9f2 0.1%,
+    rgba(221, 185, 242, 0.94) 0.11%,
+    rgba(221, 185, 242, 0.73) 37.84%,
+    rgba(221, 185, 242, 0.65) 52.91%,
+    rgba(221, 185, 242, 0.68) 99.89%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+.option1 {
+  position: absolute;
+  width: 465px;
+  height: 46px;
+  left: 200px;
+  top: 33px;
+  background: #30b3d0;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+}
+
+.option1:hover {
+  background-color: #30a0d0;
+}
+.opt1 {
+  position: absolute;
+  width: 263px;
+  height: 33px;
+  left: 150px;
+  top: -12px;
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.option2 {
+  position: absolute;
+  width: 465px;
+  height: 46px;
+  left: 200px;
+  top: 103px;
+  background: #30b3d0;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 10px;
+}
+.option2:hover {
+  background-color: #30a0d0;
+}
+.opt2 {
+  position: absolute;
+  width: 263px;
+  height: 33px;
+  left: 150px;
+  top: -12px;
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.option3 {
+  position: absolute;
+  width: 465px;
+  height: 46px;
+  left: 200px;
+  top: 177px;
+
+  background: #30b3d0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.option3:hover {
+  background-color: #30a0d0;
+}
+.opt3 {
+  position: absolute;
+  width: 263px;
+  height: 33px;
+  left: 150px;
+  top: -12px;
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.option4 {
+  position: absolute;
+  width: 465px;
+  height: 46px;
+  left: 200px;
+  top: 254px;
+
+  background: #30b3d0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.option4:hover {
+  background-color: #30a0d0;
+}
+.opt4 {
+  position: absolute;
+  width: 263px;
+  height: 33px;
+  left: 150px;
+  top: -12px;
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.arrow1 {
+  position: relative;
+  top: 0.6rem;
+}
+
+.arrow2 {
+  position: relative;
+  top: 0.6rem;
+}
+.image {
+  position: relative;
+  float: left;
+  width: 449px;
+  height: 364px;
+  left: 980px;
+  top: 0px;
+  background: url(m3.jpeg);
+  background-size: cover;
+  border-radius: 40px;
+}
+.vector1 {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  position: absolute;
+  left: 2.32%;
+  right: 88.82%;
+  top: 35.77%;
+  bottom: 58.4%;
+  background: #ffc700;
+}
+
+
+.arrow1 {
+  font-size: 45px;
+  /* margin-top: 59px; */
+  margin-left: 15px;
+  /* margin-bottom: 339px; */
+  color: black;
+}
+
+.button {
+  display: flex;
+}
+.crash {
+  position: absolute;
+  
+
+  width: 170px;
+  
+  height: 50px;
+  left: 300px;
+  top: 510px;
+  background-color: rgb(251, 183, 12);
+  font-family: Open Sans Condensed;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 33px;
+  border-radius: 10px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+
+  color: #eb3737;
+}
+
+.hint1 {
+  position: absolute;
+  width: 170px;
+  height: 50px;
+  left: 500px;
+  top: 510px;
+  background-color: yellow;
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 33px;
+  border-radius: 10px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+
+  color: #000000;
+}
+.hint2 {
+  position: absolute;
+  width: 170px;
+  height: 50px;
+  left: 700px;
+  top: 510px;
+  background-color: yellow;
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 33px;
+  border-radius: 10px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+
+  color: #000000;
+}
+.quiz {
+  position: relative;
+  width: 170px;
+  height: 50px;
+  left: 900px;
+  top: 510px;
+  background-color: lightblue;
+  font-family: Open Sans Condensed;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 29px;
+  border-radius: 10px;
+
+  letter-spacing: 0.02em;
+
+  color: #7d0d0d;
+  
+  
+}
+
+.red {
+  background: red;
+}
+.red:hover {
+  background: red;
+}
+
+.green {
+  background: green;
+}
+.green:hover {
+  background: green;
+}
+
+.hintBox1 {
+  position: relative;
+  float: left;
+  width: 449px;
+  height: 364px;
+  text-align: center;
+  padding-top: 10rem;
+  left: 980px;
+  top: 0px;
+  background: rgb(162, 209, 92);
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 40px;
+}
+
+.hintBox2 {
+  position: relative;
+  float: left;
+  width: 449px;
+  height: 364px;
+  text-align: center;
+  padding-top: 10rem;
+  left: 980px;
+  top: 0px;
+  background:rgb(162, 209, 92);
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 40px;
+}
+
+
+
+.joy {
+  color: white;
+  text-decoration: none;
+}

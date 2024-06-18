@@ -1,0 +1,104 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+header .carousel-inner .item {
+  height: 100vh;
+}
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+  color: rgb(252, 250, 250);
+  font-size: 73px;
+  padding: 40px 10px;
+  font-weight: 900;
+  
+
+}
+
+.nav.navbar-nav.navbar-right {
+  margin: 15px 0;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+  text-transform: uppercase;
+}
+.banner {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.carousel-caption {
+  padding-bottom: 250px;
+  font-family: poppins;
+}
+.carousel-caption h2 {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color:  rgb(11, 10, 10);
+}
+.carousel-caption h3{
+  color: rgb(223, 213, 31);
+  font-weight: 870;
+  font-size:350%;
+  
+}
+.carousel-caption h2 span {
+  color: rgb(251, 247, 247);
+}
+.carousel-caption a {
+  background: rgb(21, 20, 0);
+  padding: 25px 45px;
+  display: inline-block;
+  margin-top: 15px;
+  color: rgb(255, 253, 253);
+  font-size:larger;
+  text-transform: uppercase;
+  border-radius: 25px;
+  font-weight:900;
+}
+.carousel-control.right {
+  background-image: none;
+}
+.carousel-control.left {
+  background-image: none;
+}
+.carousel-indicators .active {
+  background-color: #edbb00;
+  border-color: #edbb00;
+}
+/*responsive css*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .carousel-caption {
+    padding-bottom: 350px;
+  }
+  .carousel-caption h2 {
+    font-size: 100px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .navbar-inverse .navbar-brand {
+    font-size: 30px;
+    padding: 20px 15px;
+  }
+  .navbar-collapse {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .carousel-caption {
+    padding-bottom: 120px;
+  }
+  .carousel-caption h2 {
+    font-size:30px;
+  }
+  .carousel-caption h3 {
+    font-size: 45px;
+  }
+  .carousel-caption a {
+    padding: 10px 25px;
+  }
+}
